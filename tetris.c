@@ -221,8 +221,7 @@ int main(void)
             // Render
             drawGame(board_window, score_window, next_window);
 
-            // Update counter and last update time
-            counter++;
+            // Register last update time
             last = clock();
         }
     }
