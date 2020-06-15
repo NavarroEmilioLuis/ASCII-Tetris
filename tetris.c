@@ -147,9 +147,6 @@ int main(void)
     clock_t t = clock();
     double t_taken = 0;
 
-    // Counter to register the amount of total game updates
-    int counter = 0;
-
     // Use current time as
     // seed for random generator
     srand(time(0));
@@ -233,7 +230,7 @@ int main(void)
     //End Game
     endwin();
     printf("You lost!\n");
-    printf("Frames rendered: %i\n", counter);
+    printf("Score: %i\n", score);
     return 0;
 }
 
