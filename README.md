@@ -17,7 +17,7 @@ The game will compile and run in a POSIX environment. Libraries used:
 
 ## Usage
 
-A makefile is needed to link ncurses library. After compiling, the game can be run using:
+A makefile was added to link ncurses library. After compiling, the game can be run using:
 
 ```
 ./tetris
